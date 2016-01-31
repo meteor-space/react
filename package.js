@@ -12,6 +12,7 @@ Package.onUse(function(api) {
   api.use([
     'underscore',
     'ecmascript',
+    'react',
     'space:base@4.0.0',
     'space:messaging@3.0.0',
     'space:ui@6.0.0'
@@ -34,6 +35,7 @@ Package.onTest(function(api) {
   ]);
 
   api.addFiles([
+    'tests/component.tests.js'
   ], 'client');
 
 });
